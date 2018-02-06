@@ -11,7 +11,7 @@ main() {
     
     luaL_openlibs(L);
     
-    if(luaL_dofile(L, "helloworld.lua")) {
+    if(luaL_dofile(L, "./iterator/generic-for.lua")) {
         printf("LUA ERROR: %s\n", lua_tostring(L, -1));
         return -1;
     }

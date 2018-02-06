@@ -23,10 +23,11 @@ function newCounter()
 	end
 end
 
-counter = newCounter()
-print(counter())
-print(counter())
+counter1 = newCounter()
+print(counter1())
+print(counter1())
 
+-- counter2 是不同于 counter1 的另一个闭包, 所以计数是独立的
 counter2 = newCounter()
 print(counter2())
 

@@ -17,3 +17,14 @@ end
 for i = 1, #arr do
 	print(arr[i])
 end
+
+-- table 构造式
+
+-- 数组
+days = {'sun', 'mon', 'tue', 'wed'}
+
+-- 对象
+a = {
+	x = 10,
+	y = 20
+}
